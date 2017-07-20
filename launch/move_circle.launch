@@ -1,0 +1,3 @@
+<launch><!-- Start up circle -->
+	<node name="arm_moveit" pkg="pearl_task1" type="capture_images.py" output="screen" cwd="node"></node>
+</launch>
