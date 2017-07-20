@@ -17,7 +17,7 @@ def handle_get_tableleg_pose(req):
 def get_tableleg_pose_server():
     rospy.init_node('get_tableleg_pose_server')
     s = rospy.Service('get_tableleg_pose', TableLegPose, handle_get_tableleg_pose)
-    print "Ready to add two ints."
+    print "Ready to output table leg pose."
     rospy.spin()
 
 
