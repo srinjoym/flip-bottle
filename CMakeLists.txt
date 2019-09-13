@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(tableleg_pose)
+project(flip_bottle)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
+  moveit_ros_planning_interface
 )
 
 ## System dependencies are found with CMake's conventions
@@ -53,13 +54,9 @@ catkin_python_setup()
 # )
 
 ## Generate services in the 'srv' folder
- add_service_files(
-    FILES
-#   LookAt.srv
-#   LookAtT.srv
-#   LookAtTS.srv
-    TableLegPose.srv
- )
+# add_service_files(
+#    FILES
+# )
 
 ## Generate actions in the 'action' folder
 # add_action_files(

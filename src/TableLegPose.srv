@@ -1,3 +1,0 @@
-geometry_msgs/Pose gripper_pose
----
-geometry_msgs/Pose leg_pose

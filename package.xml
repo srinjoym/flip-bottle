@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package>
-  <name>tableleg_pose</name>
+  <name>flip_bottle</name>
   <version>1.0.0</version>
-  <description>Service to get table leg pose based on planned point</description>
+  <description>Trying to flip a water bottle</description>
 
-  <author email="srinjoy.majumdar@gmail.com">Baris Akgun</author>
-  <maintainer email="srinjoy.majumdar@gmail.com">Vivian Chu</maintainer>
+  <author email="srinjoy.majumdar@gmail.com">Srinjoy Majumdar</author>
+  <maintainer email="srinjoy.majumdar@gmail.com">Srinjoy Majumdar</maintainer>
 
-  <url type="website">https://github.com/HLP-R/hlpr_manipulation/wiki</url>
-  <url type="bugtracker">https://github.com/HLP-R/hlpr_manipulation/issues</url>
-  <url type="repository">https://github.com/HLP-R/hlpr_manipulation</url>
+  <url type="website">https://github.com/srinjoym/flip-bottle</url>
+  <url type="bugtracker">https://github.com/srinjoym/flip-bottle/issues</url>
+  <url type="repository">https://github.com/srinjoym/flip-bottle</url>
 
   <license>BSD</license>
 
@@ -24,6 +24,8 @@
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
+  <run_depend>hlpr_manipulation_utils</run_depend>
+  <run_depend>moveit_commander</run_depend>
 
   <export>
   </export>
